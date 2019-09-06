@@ -45,3 +45,4 @@ class Ps:
 
 sys.ps1 = Ps('>>> ')
 sys.ps2 = '... '
+del(date)
