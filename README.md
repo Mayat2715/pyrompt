@@ -9,4 +9,5 @@ ganti prompt python
   - [class](https://www.codepolitan.com/membuat-class-di-python-589528b4d558d)
 
 [youtube](https://www.youtube.com/channel/UCDSyfwTioLDAHSP7yegPqxw)
+
 [WhatsApp](https://wa.me/62895640466851)
