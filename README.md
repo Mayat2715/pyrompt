@@ -1,5 +1,23 @@
 # pyrompt
-ganti prompt python
+
+**Auto:
+```
+git clone https://github.com/Mayat2715/pyrompt
+cd pyrompt
+bash touchme.sh
+```
+
+**Manual:
+
+pkg install wget -y
+
+wget -O ~/.pyrc https://raw.githubusercontent.com/Mayat2715/pyrompt/master/.pyrc
+
+echo 'export PYTHONSTARTUP=~/.pyrc'>~/.bash_profile
+
+echo 'your nick'>~/.nick
+
+chmod ~/.pyrc
 
 # referensi:
   - [\_\_str\_\_](https://www.journaldev.com/22460/python-str-repr-functions)
