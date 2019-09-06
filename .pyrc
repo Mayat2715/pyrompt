@@ -1,0 +1,47 @@
+'''
+Hargai pembuatnya :)
+jangan di otak atik, jangan recode
+prompt >>> dan ... boleh diganti sesuka hati :)
+github: https://github.com/Mayat2715
+wa: https://wa.me/62895640466851
+Email : mayat5172@gmail.com
+'''
+
+import os, sys
+
+os.system('clear')
+print('''
+          -oydNNMMNNdyo-
+        .mNo/yMMMMMMMMMMm.
+        oMN-.+MMMMMMMMMMMo
+        +mmmmmmmmMMMMMMMMo
+  /yhhhhhhhhhhhhhMMMMMMMMoohhhy/    {}
+ hMMMMMMMMMMMMMMMMMMMMMMM+hMMMMMh   Author: Mayat 2.7.15
+oMMMMMMMMMMMMMMMMMMMMMMMM-NMMMMMMo  github: https://git.io/fjiQH
+mMMMMMMMMMMMMMMMMMMMMMMm/hMMMMMMMm  wa: https://wa.me/62895640466851
+MMMMMMMMMNyssssssssssssyNMMMMMMMMM  Email : mayat5172@gmail.com
+mMMMMMMMy+mMMMMMMMMMMMMMMMMMMMMMMm
+oMMMMMMN-MMMMMMMMMMMMMMMMMMMMMMMMo
+ hMMMMMh+MMMMMMMMMMMMMMMMMMMMMMMh
+  /yhhhooMMMMMMMMhhhhhhhhhhhhhy/
+        oMMMMMMMMmmmmmmmm+
+        oMMMMMMMMMMM+.-NMo
+        .mMMMMMMMMMMy/oNm-
+          -oydNNMMNNdyo-          '''.format(sys.version[:6]))
+from datetime import datetime as date
+from random import choice as _rdm
+_dr = date.now
+
+class Ps:
+	def __init__(self, p):
+		self.p = p
+
+	def __str__(self):
+		yey = open('/data/data/com.termux/files/home/.nick','r').read()
+		co = ['\033[0;1m', '\033[1;31m', '\033[1;32m', '\033[1;33m', '\033[1;34m', '\033[1;35m', '\033[1;36m']
+		shit = lambda x: x.pop(_rdm(range(len(x))))
+		print("{a}[{}]{b}[{}]{c}[{}]{d}[{}] ".format(sys.version[:6], _dr().strftime("%d/%m/%y"), _dr().strftime("%H:%M:%S"), yey, a = shit(co), b = shit(co), c = shit(co), d = shit(co)))
+		return self.p
+
+sys.ps1 = Ps('>>> ')
+sys.ps2 = '... '
