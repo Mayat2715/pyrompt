@@ -2,7 +2,7 @@
 ganti prompt python
 
 # referensi:
-  - [__str__](https://www.journaldev.com/22460/python-str-repr-functions)
+  - [\_\_str\_\_](https://www.journaldev.com/22460/python-str-repr-functions)
   
   - [prompt](https://stackoverflow.com/questions/33683744/change-python-interactive-prompt)
   
