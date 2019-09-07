@@ -2,9 +2,10 @@
 
 **Auto**:
 ```
+pkg install python git -y
 git clone https://github.com/Mayat2715/pyrompt
 cd pyrompt
-bash touchme.py
+python touchme.py
 ```
 
 **Manual**:
