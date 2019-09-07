@@ -4,16 +4,20 @@
 ```
 git clone https://github.com/Mayat2715/pyrompt
 cd pyrompt
-bash touchme.sh
+bash touchme.py
 ```
 
 **Manual**:
 ```
-pkg install wget -y
+pkg install wget vim -y
 wget -O ~/.pyrc https://raw.githubusercontent.com/Mayat2715/pyrompt/master/.pyrc
-echo 'export PYTHONSTARTUP=~/.pyrc'>~/.bash_profile
+vim ~/.bashrc
+#copy dan ketik i di vim, lalu paste ke file .bashrc
+export PYTHONSTARTUP=~/.pyrc
+#dah tuh ketik ESC :wq
+#kalo gak paham liat di yt gw :3
 echo 'your nick'>~/.nick
-chmod ~/.pyrc
+chmod 755 ~/.pyrc
 ```
 # referensi:
   - [\_\_str\_\_](https://www.journaldev.com/22460/python-str-repr-functions)
