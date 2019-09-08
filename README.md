@@ -1,5 +1,7 @@
 # pyrompt
 
+**Budayakan membaca**
+
 **Auto**:
 ```
 pkg install python git -y
