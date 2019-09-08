@@ -20,6 +20,7 @@ export PYTHONSTARTUP=~/.pyrc
 echo 'your nick'>~/.nick
 chmod 755 ~/.pyrc
 ```
+[tutor](https://youtu.be/QMygZ6rl2Ns)
 # referensi:
   - [\_\_str\_\_](https://www.journaldev.com/22460/python-str-repr-functions)
   
